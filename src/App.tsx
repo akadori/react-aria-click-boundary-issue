@@ -39,7 +39,7 @@ export default function App() {
         Button A
       </button>
       <button className="buttonB" name="B" ref={ref} {...buttonProps}>
-        Button B
+        Button B(via useButton)
       </button>
       <ul>
         {eventTargetNames.map(({ name, time }, index) => (
